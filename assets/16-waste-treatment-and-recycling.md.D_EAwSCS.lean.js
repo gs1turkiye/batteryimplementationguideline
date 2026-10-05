@@ -3,7 +3,7 @@ const __pageData = JSON.parse('{"title":"16. Waste collection, treatment and rec
 const _sfc_main = { name: "16-waste-treatment-and-recycling.md" };
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("div", null, [..._cache[0] || (_cache[0] = [
-    createStaticVNode("", 41)
+    createStaticVNode("", 36)
   ])]);
 }
 const _16WasteTreatmentAndRecycling = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
