@@ -1,0 +1,12 @@
+{
+  "sourceRepository": "gs1turkiye/batterywhitepaper",
+  "sourceCommit": "2db6341f6b5707b5441c61e86b136e0601f590bc",
+  "readers": [
+    "master",
+    "portable",
+    "lmt",
+    "sli",
+    "industrial",
+    "ev"
+  ]
+}
