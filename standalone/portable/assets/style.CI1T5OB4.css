@@ -4865,6 +4865,28 @@ html:not(.dark) .VPImage.dark[data-v-35a7d0b8] {
 @media (min-width: 1440px) { .VPDoc.has-aside .content-container { max-width: 850px !important; } }
 @media print { .VPNav, .VPSidebar, .VPDocAside, .VPLocalNav, .VPDocFooter, .reader-status { display: none !important; } .VPContent, .VPDoc { padding: 0 !important; margin: 0 !important; } .vp-doc table { display: table; font-size: 10px; } }
 
+/* Local logo placement: preserve artwork proportions inside the existing header. */
+.VPNavBarTitle .title { width: 100%; }
+.VPNavBarTitle .logo {
+  display: block;
+  width: 112px;
+  height: auto;
+  max-height: 57px;
+  object-fit: contain;
+  margin-right: 0;
+  flex-shrink: 0;
+}
+.dark .VPNavBarTitle .title {
+  background: #fff;
+  border-radius: 4px;
+  width: 128px;
+  padding: 0 8px;
+}
+@media (max-width: 767px) {
+  .VPNavBarTitle .logo { width: 96px; max-height: 49px; }
+  .dark .VPNavBarTitle .title { width: 112px; }
+}
+
 .VPLocalSearchBox[data-v-42e65fb9] {
   position: fixed;
   z-index: 100;
